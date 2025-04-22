@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+   <table width="100%">
+    <tr>
+       <td align="right">
+            <a href="index.html">HOME</a> | 
+            <a href="eventos.html">EVENTOS</a> | 
+            <a href="contato.html">CONTATO</a> | 
+            <a href="sobre.html">SOBRE</a> |
+           <a href="entrar.html">ENTRAR</a> 
+        </td>
+    </tr>
+</table> 
+</head>
+<body>
+   <img src='https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/77770610c0de515c6150e899d70445ff3d25094d/Logo.jpg' />
+  <h1>Inscreva-se</h1>
+  <fieldset>
+ <form>
+    <label for="evento">Evento</label>
+    <select id="evento" name="evento">
+      <option value="">Selecione um evento</option>
+        <option>Voe sem asas</option>
+        <option>Festa junina</option>
+        <option>Semana de tecnologia</option>
+   </select>
+     </form>
+     </fieldset>
 
+    <fieldset>
+      <legend>Informações de Acesso</legend>
+      <label for="usuario">Usuário</label>
+      <input type="text" id="usuario" name="usuario"><br><br>
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" name="senha"><br><br>
+
+      <label for="confirmaSenha">Confirme a Senha</label>
+      <input type="password" id="confirmaSenha" name="confirmaSenha"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+      <label for="nome">Nome Completo</label>
+      <input type="text" id="nome" name="nome"><br><br>
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="celular">Celular</label>
+      <input type="tel" id="celular" name="celular" placeholder="(99) 99999-9999"><br><br>
+
+      <label>Sexo</label><br>
+      <input type="radio" id="masculino" name="sexo" value="masculino">
+      <label for="masculino">Masculino</label>
+
+      <input type="radio" id="feminino" name="sexo" value="feminino">
+      <label for="feminino">Feminino</label><br><br>
+
+      <label for="nascimento">Data de Nascimento</label>
+      <input type="date" id="nascimento" name="nascimento"><br><br>
+
+      <label for="cor">Cor Favorita</label>
+      <input type="color" id="cor" name="cor"><br><br>
+
+      <label for="github">Perfil no Github</label>
+      <input type="url" id="github" name="github"><br><br>
+    </fieldset>
+
+    <button type="submit">Inscrever</button>
+    <button type="reset">Limpar</button><br><br>
+  </form>
+    
+    <div style="display: inline-block;">
+    <a href="https://www.facebook.com/ifsppirituba">
+        <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/77770610c0de515c6150e899d70445ff3d25094d/facebook.png" width="30">
+    </a>
+</div>
+
+     <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100/</p>
+</body>
+</html>
