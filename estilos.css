@@ -43,19 +43,21 @@ h2 {
 }
 
 
-.imagem-oval {
-  width: 50%;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 50% / 40%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
+  .imagem-oval {
+    width: 300px; 
+    height: 200px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 50% / 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
 
-.imagem-oval img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+  .imagem-oval img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
 
 div[style*="border: 2px dashed"] {
   border: 2px dashed #333;
