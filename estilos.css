@@ -7,7 +7,7 @@ body {
 }
 
 .menu {
-    background-color: #008000; /* Cor verde do IFSP */
+    background-color: #008000; 
     color: #fff;
     padding: 10px 20px;
     display: flex;
@@ -33,32 +33,32 @@ body {
 }
 
 .banner img {
-    max-width: 300px; /* Ajuste o tamanho conforme necessário */
+    max-width: 300px; 
     height: auto;
 }
 
 h2 {
-    color: #228B22; /* Verde mais escuro para o título */
+    color: #228B22; 
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-/* Estilo para o container da imagem "Acontece no IFSP!" */
-div:nth-child(5) { /* Seleciona a quinta div (contém a imagem e o texto) */
+
+div:nth-child(5) { 
     background-color: #f9f9f9;
     padding: 15px;
     margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: fit-content; /* Ajusta a largura ao conteúdo */
+    width: fit-content; 
 }
 
 div:nth-child(5) img {
-    width: 100%; /* Faz a imagem ocupar a largura do container */
-    max-width: 500px; /* Largura máxima da imagem */
-    display: block; /* Remove espaço extra abaixo da imagem */
+    width: 100%; 
+    max-width: 500px; 
+    display: block; 
     margin-bottom: 10px;
 }
 
@@ -69,7 +69,7 @@ div:nth-child(5) p {
     color: #555;
 }
 
-/* Estilo para a div com borda tracejada */
+
 div:nth-child(6) {
     border: 2px dashed #333;
     padding: 10px;
@@ -87,9 +87,9 @@ div:nth-child(6) {
 }
 
 .video-container iframe {
-    max-width: 80%; /* Garante que o vídeo não ultrapasse a largura do container */
-    width: 560px; /* Largura padrão do iframe */
-    height: 315px; /* Altura padrão do iframe */
+    max-width: 80%; 
+    width: 560px; 
+    height: 315px; 
     border: none;
 }
 
@@ -114,29 +114,3 @@ div:last-child img {
     margin-right: 5px;
 }
 
-/* Adaptações para telas menores (responsividade) */
-@media (max-width: 768px) {
-    .menu {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .menu div {
-        margin-bottom: 10px;
-    }
-
-    .menu div a {
-        margin-right: 0;
-        margin-bottom: 5px;
-        display: block;
-    }
-
-    .banner img {
-        max-width: 100%;
-    }
-
-    .video-container iframe {
-        width: 100%;
-        height: auto;
-    }
-}
