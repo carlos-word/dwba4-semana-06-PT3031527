@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -25,19 +26,45 @@ body {
 }
 
 .banner {
-  background-color: #008000; 
+  background-color: #007c2e; 
   padding: 10px;
+  text-align: left;
 }
 
 .banner img {
-  max-height: 100px;
+  height: 80px;
 }
+
 
 h2 {
   margin-top: 30px;
   font-size: 1.5em;
   font-weight: bold;
 }
+
+
+.imagem-oval img {
+  width: 50%;
+  display: block;
+  margin: auto;
+  border-radius: 50% / 35%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.imagem-oval p {
+  margin: 0;
+  padding: 0;
+}
+
+
+div[style*="border: 2px dashed"] {
+  border: 2px dashed #333;
+  padding: 10px;
+  width: fit-content;
+  margin: 20px auto;
+  text-align: center;
+}
+
 
 .video-container {
   margin: 20px auto;
@@ -50,7 +77,9 @@ h2 {
   height: 315px;
 }
 
+
 p {
   font-size: 0.9em;
   margin-top: 20px;
 }
+
